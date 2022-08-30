@@ -40,7 +40,7 @@
             var temp = Head;
             while (temp != null)
             {
-                Console.WriteLine("Date Time : {1}, Type : {2}, Stock : {3}, Price : {4}, Quantity : {5}", temp.Details.TrasactionTime.ToLocalTime(),temp.Details.TypeOfTransaction,temp.Details.StockSymbol,temp.Details.Price,temp.Details.Qty);
+                Console.WriteLine("Date Time : {0}, Type : {1}, Stock : {2}, Price : {3}, Quantity : {4}", temp.Details.TrasactionTime.ToLocalTime(),temp.Details.TypeOfTransaction,temp.Details.StockSymbol,temp.Details.Price,temp.Details.Qty);
                 temp = temp.Next;
             }
         }
